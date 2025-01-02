@@ -36,7 +36,7 @@ export class ProductsComponent implements OnInit, OnChanges {
     setTimeout(() => {
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
-    }, 2000);
+    }, 1000);
   }
 
   ngOnInit() {}
