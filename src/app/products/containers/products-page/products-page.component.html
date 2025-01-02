@@ -1,0 +1,12 @@
+<div class="products-container">
+  <app-products-filter
+    class="filter-section"
+    [categories]="categories"
+    (submitted)="onSubmit($event)"
+  ></app-products-filter>
+  <app-products
+    class="list-section"
+    [totalLength]="totalLength"
+    [products]="products"
+  ></app-products>
+</div>

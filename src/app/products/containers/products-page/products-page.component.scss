@@ -1,0 +1,14 @@
+.products-container {
+  display: flex;
+  padding: 30px;
+
+  .filter-section {
+    width: 25%;
+    // padding: 10px;
+  }
+
+  .list-section {
+    width: 75%;
+    // padding: 10px;
+  }
+}
